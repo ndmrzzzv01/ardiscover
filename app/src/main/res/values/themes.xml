@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.ARDiscover" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.ARDiscover" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/sceneview</item>
+        <item name="colorAccent">@color/sceneview</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 </resources>
